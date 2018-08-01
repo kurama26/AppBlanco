@@ -1,0 +1,8 @@
+{
+  "name": "AppBlanco",
+  "app_id": "7bf47f1f",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
