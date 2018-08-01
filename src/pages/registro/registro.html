@@ -1,0 +1,48 @@
+<!--
+  Generated template for the RegistroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Registro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+      <ion-item>
+        <ion-label> {{LblNombreReg}}</ion-label>
+        <ion-input type="text" [(ngModel)]="NombreReg"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label> {{LblApellidoReg}}</ion-label>
+        <ion-input type="text" [(ngModel)]="ApellidoReg" ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label> {{LblEmailreg}}</ion-label>
+        <ion-input type="text" [(ngModel)]="EmailReg"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label> {{LblEmailRegConfirmacion}}</ion-label>
+        <ion-input type="text" [(ngModel)]="EmailRegConfirmacion" ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>{{LblUserReg}}</ion-label>
+        <ion-input type="text" [(ngModel)] ="UserReg"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label> {{LblPasswordReg}}</ion-label>
+        <ion-input type="password" [(ngModel)]="PasswordReg"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label> {{LblPasswordregConfirmacion}}</ion-label>
+        <ion-input type="password" [(ngModel)]="PasswordregConfirmacion" ></ion-input>
+      </ion-item>
+    </ion-list>
+    <button class="shadow-secondary margin-top-15" color="secondary" ion-button outline block (click)="paginaRegistro()">Registrarse</button>
+</ion-content>
